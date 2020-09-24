@@ -11,7 +11,6 @@
 	header{
 		width:100%;
 		height: 207px;
-		background-color: yellow;
 	}
 	
 	#header_d1{
@@ -19,17 +18,10 @@
 		height: 104px;
 		margin: 0 auto;
 	}
-	.header_a{
-		background-color: blue;
-	}
-	.header_b{
-		background-color: aqua;
-	}
-	
-	#head_d1{
+
+	#head_dd1{
 		width:1079px;
 		height:45px;
-		background-color: purple;
 		position: absolute;
 		top:30px;	
 	}
@@ -40,6 +32,9 @@
 		left:0px;
 		width:226px;
 		height: 36px;
+	}
+	#header_d1_nav1 a{
+		text-decoration: none;
 	}
 
 	#header_d1_nav1 li{
@@ -61,11 +56,15 @@
 	}
 	#li2{
 		background-color:#061f5c;
-		color: white;
 		left :117px;
 		top:5px;
 	}
-	
+	#li1_a{
+		color: #231815;
+	}
+	#li2_a{
+		color: white;
+	}
 	#header_d1_nav2{
 		display :inline-block;
 		width:179px;
@@ -75,6 +74,49 @@
 		left :450px;
 
 	}
+	
+	#header_d1_nav3{
+		width:353px;
+		height: 22px;
+		position: absolute;
+		right: 0px;
+		top:5px;
+		background-color: white;
+		text-align: right;
+	}
+	#header_d1_nav3 li{
+		display : inline-block;
+		list-style: none;
+
+	}
+	
+	#header_d1_nav3 a{
+		text-decoration: none;
+		color: #231815;
+		font-size: 0.813em;
+		font-weight : bold;
+		font-style: "Noto Sans KR";
+		margin-left: 8px;
+	}
+	
+
+	.header_b ul{
+		text-align: center;
+		margin-top:5px;
+	}
+	.header_b li{
+		display: inline-block;
+		width:auto;
+		height: 50px;
+		padding: 0px 23px;
+	}
+	
+	.header_b a{
+		text-decoration: none;
+		color:#231815;
+		font-weight: bold;
+	}
+	
 	section{
 		width:100%;
 		height: 700px;
@@ -82,6 +124,11 @@
 		background-color: gray;
 	}
 	
+	#sec_d1{
+		width: 100%;
+		height: 480px;
+		background-color: yellow;
+	}
 	footer{
 		width: 100%;
 		height:178px;
@@ -94,25 +141,50 @@
 	<!-- header -->
 	<header>
 		<div id="header_d1" class="header_a">
-			<div id ="head_d1">
+			<div id ="head_dd1">
 				<nav id="header_d1_nav1">
 					<ul>
-						<li id="li1">보듬교육</li>
-						<li id="li2">보듬숍</li>
+						<li id="li1"><a id="li1_a" href="#">보듬교육</a></li>
+						<li id="li2"><a id="li2_a" href="#">보듬숍</a></li>
 					</ul>
 				</nav>
 				<nav id="header_d1_nav2">
 				<img src="./images/common/logo.png">
 				</nav>
-				<nav id="header_d1_nav3"></nav>
+				<nav id="header_d1_nav3">
+					<ul>
+						<li><a href="#">로그인    | </a></li>
+						<li><a href="#">회원가입    | </a></li>
+						<li><a href="#">고객센터    | </a></li>
+						<li><a href="#">주문조회    | </a></li>
+						<li><a href="#">장바구니</a></li>
+					</ul>
+				</nav>
 
 			</div>
 		</div>
-		<div id="header_d1" class="header_b"></div>
+		<div id="header_d1" class="header_b">
+			<ul>
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">NEW</a></li>
+				<li><a href="#">야외용품</a></li>
+				<li><a href="#">패션</a></li>
+				<li><a href="#">리빙</a></li>
+				<li><a href="#">장난감</a></li>
+				<li><a href="#">훈련용품</a></li>
+				<li><a href="#">푸드</a></li>
+				<li><a href="#">문구·도서</a></li>
+				<li><a href="#">BODEUM</a></li>
+			</ul>
+		</div>
 	</header>
 	
 	<!-- section -->
-	<section></section>
+	<section>
+		<div id="sec_d1">
+		<img src="./images/common/dog.png">
+		</div>
+	</section>
 	
 	<!-- footer -->
 	<footer></footer>
