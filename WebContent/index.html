@@ -15,8 +15,8 @@
 	}
 	
 	#header_d1{
-		width:1074px;
-		height: 106px;
+		width:1079px;
+		height: 104px;
 		margin: 0 auto;
 	}
 	.header_a{
@@ -25,12 +25,56 @@
 	.header_b{
 		background-color: aqua;
 	}
-	#header_d1_d1{
-		width:108px;
-		height: 36px;
-		background-color: gray;
+	
+	#head_d1{
+		width:1079px;
+		height:45px;
+		background-color: purple;
+		position: absolute;
+		top:30px;	
 	}
 	
+	#header_d1_nav1{
+		display : inline-block;	
+		position:absolute;
+		left:0px;
+		width:226px;
+		height: 36px;
+	}
+
+	#header_d1_nav1 li{
+		display : inline-block;
+		position :absolute;
+		list-style: none;
+		height: 36px;
+		width :108px;
+		text-align: center;
+		line-height: 36px;
+		border-radius: 50px;	
+		font-weight: bold;
+		font-style: "Noto Sans KR";
+	}
+	#li1{
+		background-color:#f3f3f3;
+		left :0px;
+		top:5px;
+	}
+	#li2{
+		background-color:#061f5c;
+		color: white;
+		left :117px;
+		top:5px;
+	}
+	
+	#header_d1_nav2{
+		display :inline-block;
+		width:179px;
+		height: 43px;
+		background-color: white;
+		position: absolute;
+		left :450px;
+
+	}
 	section{
 		width:100%;
 		height: 700px;
@@ -50,9 +94,19 @@
 	<!-- header -->
 	<header>
 		<div id="header_d1" class="header_a">
-			<div id="header_d1_d1"></div>
-			<div id="header_d1_d2"></div>
-			<div id="header_d1_d3"></div>
+			<div id ="head_d1">
+				<nav id="header_d1_nav1">
+					<ul>
+						<li id="li1">보듬교육</li>
+						<li id="li2">보듬숍</li>
+					</ul>
+				</nav>
+				<nav id="header_d1_nav2">
+				<img src="./images/common/logo.png">
+				</nav>
+				<nav id="header_d1_nav3"></nav>
+
+			</div>
 		</div>
 		<div id="header_d1" class="header_b"></div>
 	</header>
