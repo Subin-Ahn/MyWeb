@@ -226,7 +226,7 @@ header{
 		height:43px;
 		background-color: #269cd3;
 		border-radius: 50px;
-		border: #269cd3;
+		border: 1px #269cd3 solid;
 		color:  white;
 		line-height: 43px;
 		font-weight: bold;
